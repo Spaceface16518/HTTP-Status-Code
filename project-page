@@ -21,7 +21,7 @@ span.bodyItems:hover {
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
-  text-indent: 50px;
+  text-indent: 5px;
 }
 </style>
 <body>
