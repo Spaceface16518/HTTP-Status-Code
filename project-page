@@ -25,8 +25,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 </style>
 <body>
+<section id="title" class="heading">
   <h1>HTTP Staus Messages Explained</h1>
+</section>
+<section id="intro" class="body">
     <p>HTTP errors can be commonly found when browsing the internet. How often have you gotten that infamous<a href="#4XXErrors"><span style="font-weight:bold"> Error 404</span> <span style="color:tomato">not found</span></a>. The internet uses a strict set of rules to display information. This <span>protocol</span>, or set of rules, is called <span class="httpLogoText"><strong>H</strong>yper <strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol</span>. Sometimes, when the protocol is not followed (by accident or on purpose) errors can occur. To help solve the problem, these errors cannot be general. They are given a numerical code so that they are easily recognizable, but sometimes these numbers only serve to confuse us further. It is important to be able to identify and understand these errors so that you can have a better browser experience.</p>
+</section>
     <h2 style="text-align:right">How HTTP status messages are organized</h2>
         <p>To work efficiently, HTTP errors, commonly referred to as <strong>status messages</strong> have to be neatly organized. HTTP does this by assigning each error a numerical code. Consider the following example of an HTTP status message:</p>
           <h3 style="text-indent:0px">Error 407 - Proxy Authentication Required</h3>
