@@ -31,7 +31,8 @@ h1, h2, h3, h4, h5, h6 {
         <p>To work efficiently, HTTP errors, commonly referred to as <strong>status messages</strong> have to be neatly organized. HTTP does this by assigning each error a numerical code. Consider the following example of an HTTP status message:</p>
           <h3 style="text-align:center;text-indent:0px">Error 407 - Proxy Authentication Required</h3>
         <p><u>Let's deconstruct this message part by part</u><br><br>The first word, <em>Error</em>, tells us that the message we have been redirected to is an error message deployed by HTTP.<br>The second part is a number. The first digit, <em>4</em>, tells us that this particular error one of many errors belonging to the class <b>Client Errors</b>. All other client errors will have the same first digit: 4.<br>The next part is a descriptive phrase. <em>Proxy Authentication Required</em> is the name of this error. It tells us what exactly went wrong. In this case, we were denied access to a certain website becuase we failed to authenticate ourselves to a proxy.<br>Now that we have learned how to deconstruct an HTTP status message, take a look at all of the errors that are possible.</p>
-
+<!--
         <p>this is some text<br><span class="bodyItems"> This is some body item text</span></p>
+-->
 </body>
 </html>
