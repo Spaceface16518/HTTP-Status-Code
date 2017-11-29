@@ -1,42 +1,57 @@
 <!doctype html>
 <html>
 <head>
-  <title>HTTP Status Codes</title>
+	<title>HTTP Status Codes</title>
 </head>
 <style>
+body {
+	background-color: linen;
+}
 span.httpLogoText:hover {
-  font-size: 150%;
-  cursor: zoom-in;
-  background-color: tomato;
-  color: blue;
+	font-size: 150%;
+	cursor: zoom-in;
+	background-color: tomato;
+	color: blue;
 }
 span.navMenuItems:hover, span.navMenuItems:active {
-  font-size: 111%;
-  cursor: alias;
+	font-size: 111%;
+	cursor: alias;
 }
 span.bodyItems:hover {
-  font-size: 105%;
-  text-shadow: 150%;
-  cursor: pointer;
+	font-size: 105%;
+	text-shadow: 150%;
+	cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6 {
-  text-align: center;
-  text-indent: 5px;
+	text-align: center;
+	text-indent: 5px;
 }
 </style>
 <body>
-<section id="title" class="heading">
-  <h1>HTTP Staus Messages Explained</h1>
-</section>
-<section id="intro" class="body">
-    <p>HTTP errors can be commonly found when browsing the internet. How often have you gotten that infamous<a href="#4XXErrors"><span style="font-weight:bold"> Error 404</span> <span style="color:tomato">not found</span></a>. The internet uses a strict set of rules to display information. This <span>protocol</span>, or set of rules, is called <span class="httpLogoText"><strong>H</strong>yper <strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol</span>. Sometimes, when the protocol is not followed (by accident or on purpose) errors can occur. To help solve the problem, these errors cannot be general. They are given a numerical code so that they are easily recognizable, but sometimes these numbers only serve to confuse us further. It is important to be able to identify and understand these errors so that you can have a better browser experience.</p>
-</section>
-    <h2 style="text-align:left">How HTTP status messages are organized</h2>
-        <p>To work efficiently, HTTP errors, commonly referred to as <strong>status messages</strong> have to be neatly organized. HTTP does this by assigning each error a numerical code. Consider the following example of an HTTP status message:</p>
-          <h3 style="text-indent:0px">Error 407 - Proxy Authentication Required</h3>
-        <p><u>Let's deconstruct this message part by part</u><br><br>The first word, <em>Error</em>, tells us that the message we have been redirected to is an error message deployed by HTTP.<br>The second part is a number. The first digit, <em>4</em>, tells us that this particular error one of many errors belonging to the class <b>Client Errors</b>. All other client errors will have the same first digit: 4.<br>The next part is a descriptive phrase. <em>Proxy Authentication Required</em> is the name of this error. It tells us what exactly went wrong. In this case, we were denied access to a certain website becuase we failed to authenticate ourselves to a proxy.<br>Now that we have learned how to deconstruct an HTTP status message, take a look at all of the errors that are possible.</p>
-<!--
-        <p>this is some text<br><span class="bodyItems"> This is some body item text</span></p>
--->
+	<h1>HTTP Staus Messages Explained</h1>
+		<p>HTTP errors can be commonly found when browsing the internet. How often have you gotten that infamous<a href="#4XXErrors"><span style="font-weight:bold"> Error 404</span> <span style="color:tomato">not found</span></a>. The internet uses a strict set of rules to display information. This <span>protocol</span>, or set of rules, is called <span class="httpLogoText"><strong>H</strong>yper <strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol</span>. Sometimes, when the protocol is not followed (by accident or on purpose) errors can occur. To help solve the problem, these errors cannot be general. They are given a numerical code so that they are easily recognizable, but sometimes these numbers only serve to confuse us further. It is important to be able to identify and understand these errors so that you can have a better browser experience.</p>
+		<h2 style="text-align:left">How HTTP status messages are organized</h2>
+				<p>To work efficiently, HTTP errors, commonly referred to as <strong>status messages</strong> have to be neatly organized. HTTP does this by assigning each error a numerical code. Consider the following example of an HTTP status message:</p>
+					<h3 style="text-indent:0px">Error 407 - Proxy Authentication Required</h3>
+				<p><u>Let's deconstruct this message part by part</u><br><br>The first word, <em>Error</em>, tells us that the message we have been redirected to is an error message deployed by HTTP.<br>The second part is a number. The first digit, <em>4</em>, tells us that this particular error one of many errors belonging to the class <b>Client Errors</b>. All other client errors will have the same first digit: 4.<br>The next part is a descriptive phrase. <em>Proxy Authentication Required</em> is the name of this error. It tells us what exactly went wrong. In this case, we were denied access to a certain website becuase we failed to authenticate ourselves to a proxy.<br>Now that we have learned how to deconstruct an HTTP status message, take a look at all of the errors that are possible.</p>
+
+
+	 <section id="1XXErrors" class="body">
+		 <table>
+		 	<thead>
+		 		<tr>
+		 			<td>Numerical Code</td>
+					<td>Message</td>
+					<td>Description</td>
+					<td>Explaination</td>
+		 		</tr>
+		 	</thead>
+			<tbody>
+				<tr>
+
+				</tr>
+			</tbody>
+		 </table>
+<!--<p>this is some text<br><span class="bodyItems"> This is some body item text</span></p>-->
 </body>
 </html>
