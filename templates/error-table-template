@@ -1,0 +1,32 @@
+<section id="XXErrors" class="body">
+  <table>
+   <thead>
+     <tr>
+       <td>Numerical Code</td>
+       <td>Message</td>
+       <td>Description</td>
+       <td>Explaination</td>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+     </tr>
+     <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+     </tr>
+     <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+     </tr>
+   </tbody>
+  </table>
+</section>
