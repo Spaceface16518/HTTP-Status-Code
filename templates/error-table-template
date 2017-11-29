@@ -1,3 +1,6 @@
+The following is the template for each error table on `project-page`
+It is formatted correctly here, but must be placed on the correctly indented line on `project-page`
+~~~~html
 <section id="XXErrors" class="body">
   <table>
    <thead>
@@ -5,7 +8,7 @@
        <td>Numerical Code</td>
        <td>Message</td>
        <td>Description</td>
-       <td>Explaination</td>
+       <td>Explanation</td>
      </tr>
    </thead>
    <tbody>
@@ -30,3 +33,4 @@
    </tbody>
   </table>
 </section>
+~~~~
