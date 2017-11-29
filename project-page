@@ -3,30 +3,7 @@
 <head>
 	<title>HTTP Status Codes</title>
 </head>
-<style>
-body {
-	background-color: linen;
-}
-span.httpLogoText:hover {
-	font-size: 150%;
-	cursor: zoom-in;
-	background-color: tomato;
-	color: blue;
-}
-span.navMenuItems:hover, span.navMenuItems:active {
-	font-size: 111%;
-	cursor: alias;
-}
-span.bodyItems:hover {
-	font-size: 105%;
-	text-shadow: 150%;
-	cursor: pointer;
-}
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-	text-indent: 5px;
-}
-</style>
+
 <body>
 	<h1>HTTP Staus Messages Explained</h1>
 		<p>HTTP errors can be commonly found when browsing the internet. How often have you gotten that infamous<a href="#4XXErrors"><span style="font-weight:bold"> Error 404</span> <span style="color:tomato">not found</span></a>. The internet uses a strict set of rules to display information. This <span>protocol</span>, or set of rules, is called <span class="httpLogoText"><strong>H</strong>yper <strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol</span>. Sometimes, when the protocol is not followed (by accident or on purpose) errors can occur. To help solve the problem, these errors cannot be general. They are given a numerical code so that they are easily recognizable, but sometimes these numbers only serve to confuse us further. It is important to be able to identify and understand these errors so that you can have a better browser experience.</p>
