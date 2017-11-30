@@ -1,22 +1,26 @@
 body {
-	background-color: linen;
+  background-color: linen;
 }
+
 span.httpLogoText:hover {
-	font-size: 150%;
-	cursor: zoom-in;
-	background-color: tomato;
-	color: blue;
+  font-size: 150%;
+  cursor: zoom-in;
+  background-color: tomato;
+  color: blue;
 }
+
 span.navMenuItems:hover, span.navMenuItems:active {
-	font-size: 111%;
-	cursor: alias;
+  font-size: 111%;
+  cursor: alias;
 }
+
 span.bodyItems:hover {
-	font-size: 105%;
-	text-shadow: 150%;
-	cursor: pointer;
+  font-size: 105%;
+  text-shadow: 150%;
+  cursor: pointer;
 }
+
 h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-	text-indent: 5px;
+  text-align: center;
+  text-indent: 5px;
 }
